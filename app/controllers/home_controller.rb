@@ -1,5 +1,6 @@
 class HomeController < ApplicationController
   def index
+  	@qall = Question.all
   end
 
   def new

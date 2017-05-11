@@ -1,1 +1,4 @@
-<h1>장근열</h1>
+<% @qall.each do |db|%>
+<p><%= db.name %>: <%= db.content %></p>
+<hr>
+<%end%>
